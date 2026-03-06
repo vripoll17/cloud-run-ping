@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Ping Cloud Run
         run: |
-          curl -s https://discord-quiz-bot-lbg7wlttwq-ew.a.run.app/ > /dev/null || echo "Falló el ping"
+          curl -s https://discord-quiz-bot-711985029108.europe-west1.run.app > /dev/null || echo "Falló el ping"
